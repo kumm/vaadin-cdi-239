@@ -71,7 +71,7 @@
 
     <properties>
         <vaadin.viritn.version>2.1</vaadin.viritn.version>
-        <version.org.slf4j>1.7.7.jbossorg-1</version.org.slf4j>
+        <version.org.slf4j>1.7.7</version.org.slf4j>
         <vaadin.version>8.3.0</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -79,4 +79,10 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>vaadin-addons</id>
+            <url>http://maven.vaadin.com/vaadin-addons</url>
+        </repository>
+    </repositories>
 </project>
